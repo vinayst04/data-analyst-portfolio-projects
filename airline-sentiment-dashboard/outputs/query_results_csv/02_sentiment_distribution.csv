@@ -1,0 +1,4 @@
+sentiment,tweets,tweet_percent,avg_confidence
+negative,9178,62.69,0.93
+neutral,3099,21.17,0.82
+positive,2363,16.14,0.87

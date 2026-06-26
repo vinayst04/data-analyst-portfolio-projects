@@ -1,0 +1,9 @@
+country_name,latest_gdp_year,gdp_trillion_usd,gdp_growth_percent,inflation_percent,unemployment_percent,internet_users_percent,life_expectancy_years
+United States,2024,28.75,2.79,2.95,4.02,94.69,78.89
+China,2024,18.74,4.98,0.22,4.59,92.0,78.02
+Germany,2024,4.69,-0.5,2.26,3.4,93.5,80.79
+Japan,2024,4.03,0.1,2.74,2.5,85.54,84.04
+India,2024,3.91,6.49,4.95,4.17,64.94,72.23
+United Kingdom,2024,3.69,1.13,3.27,4.36,95.47,81.39
+Brazil,2024,2.19,3.42,4.37,6.8,84.46,76.02
+South Africa,2024,0.4,0.53,4.36,32.28,78.36,66.31

@@ -1,0 +1,13 @@
+Total Sales = SUM(superstore_clean[sales])
+
+Total Profit = SUM(superstore_clean[profit])
+
+Profit Margin % = DIVIDE([Total Profit], [Total Sales])
+
+Total Orders = DISTINCTCOUNT(superstore_clean[order_id])
+
+Total Customers = DISTINCTCOUNT(superstore_clean[customer_id])
+
+Average Discount = AVERAGE(superstore_clean[discount])
+
+Total Quantity = SUM(superstore_clean[quantity])

@@ -1,0 +1,89 @@
+country_name,year,gdp_growth_percent
+Brazil,2014,0.5
+Brazil,2015,-3.55
+Brazil,2016,-3.28
+Brazil,2017,1.32
+Brazil,2018,1.78
+Brazil,2019,1.22
+Brazil,2020,-3.28
+Brazil,2021,4.76
+Brazil,2022,3.02
+Brazil,2023,3.24
+Brazil,2024,3.42
+China,2014,7.46
+China,2015,6.98
+China,2016,6.78
+China,2017,6.89
+China,2018,6.76
+China,2019,6.07
+China,2020,2.34
+China,2021,8.57
+China,2022,3.13
+China,2023,5.41
+China,2024,4.98
+Germany,2014,2.18
+Germany,2015,1.66
+Germany,2016,2.22
+Germany,2017,2.8
+Germany,2018,1.14
+Germany,2019,0.98
+Germany,2020,-4.13
+Germany,2021,3.91
+Germany,2022,1.81
+Germany,2023,-0.87
+Germany,2024,-0.5
+India,2014,7.41
+India,2015,8.0
+India,2016,8.26
+India,2017,6.8
+India,2018,6.45
+India,2019,3.87
+India,2020,-5.78
+India,2021,9.69
+India,2022,7.61
+India,2023,9.19
+India,2024,6.49
+Japan,2014,0.3
+Japan,2015,1.56
+Japan,2016,0.75
+Japan,2017,1.68
+Japan,2018,0.64
+Japan,2019,-0.4
+Japan,2020,-4.17
+Japan,2021,2.7
+Japan,2022,0.94
+Japan,2023,1.48
+Japan,2024,0.1
+South Africa,2014,1.41
+South Africa,2015,1.32
+South Africa,2016,0.66
+South Africa,2017,1.16
+South Africa,2018,1.56
+South Africa,2019,0.26
+South Africa,2020,-6.17
+South Africa,2021,4.86
+South Africa,2022,2.06
+South Africa,2023,0.81
+South Africa,2024,0.53
+United Kingdom,2014,3.16
+United Kingdom,2015,2.14
+United Kingdom,2016,2.21
+United Kingdom,2017,3.02
+United Kingdom,2018,1.55
+United Kingdom,2019,1.26
+United Kingdom,2020,-10.05
+United Kingdom,2021,8.54
+United Kingdom,2022,5.15
+United Kingdom,2023,0.27
+United Kingdom,2024,1.13
+United States,2014,2.52
+United States,2015,2.95
+United States,2016,1.82
+United States,2017,2.46
+United States,2018,2.97
+United States,2019,2.58
+United States,2020,-2.16
+United States,2021,6.06
+United States,2022,2.51
+United States,2023,2.89
+United States,2024,2.79

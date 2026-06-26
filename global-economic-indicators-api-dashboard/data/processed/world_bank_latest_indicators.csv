@@ -1,0 +1,57 @@
+country_code,country_name,indicator_code,short_name,dashboard_name,unit,format_type,latest_year,value
+USA,United States,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,2.949525205
+USA,United States,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,78.8902439
+USA,United States,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,94.69380188
+USA,United States,SP.POP.TOTL,Population,Population,people,number,2024,340110988
+IND,India,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,4.173
+USA,United States,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,2.88E+13
+IND,India,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,3.91E+12
+DEU,Germany,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,3.4
+DEU,Germany,SP.POP.TOTL,Population,Population,people,number,2024,83516593
+DEU,Germany,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,80.79268293
+DEU,Germany,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,93.49999579
+DEU,Germany,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,2.256498143
+DEU,Germany,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,-0.495851897
+DEU,Germany,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,4.69E+12
+CHN,China,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,4.59
+CHN,China,SP.POP.TOTL,Population,Population,people,number,2024,1408975000
+IND,India,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,6.494765524
+CHN,China,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,78.017
+CHN,China,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,0.218128938
+CHN,China,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,4.977356592
+CHN,China,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,1.87E+13
+BRA,Brazil,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,6.801
+BRA,Brazil,SP.POP.TOTL,Population,Population,people,number,2024,211998573
+BRA,Brazil,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,76.023
+BRA,Brazil,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,84.46347227
+BRA,Brazil,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,4.367464077
+BRA,Brazil,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,3.419315166
+BRA,Brazil,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,2.19E+12
+CHN,China,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,92
+USA,United States,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,2.793001277
+IND,India,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,4.95303551
+IND,India,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,72.235
+GBR,United Kingdom,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,4.361
+GBR,United Kingdom,SP.POP.TOTL,Population,Population,people,number,2024,69226000
+GBR,United Kingdom,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,81.38685366
+GBR,United Kingdom,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,95.4720993
+GBR,United Kingdom,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,3.271572946
+GBR,United Kingdom,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,1.126422671
+GBR,United Kingdom,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,3.69E+12
+ZAF,South Africa,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,32.279
+ZAF,South Africa,SP.POP.TOTL,Population,Population,people,number,2024,64007187
+ZAF,South Africa,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,66.312
+IND,India,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,64.9434967
+ZAF,South Africa,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,78.35759735
+ZAF,South Africa,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,0.534843532
+ZAF,South Africa,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,4.01E+11
+JPN,Japan,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,2.5
+JPN,Japan,SP.POP.TOTL,Population,Population,people,number,2024,123975371
+JPN,Japan,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,84.03634146
+JPN,Japan,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,85.54153081
+JPN,Japan,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,2.738536816
+JPN,Japan,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,0.104309022
+JPN,Japan,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,4.03E+12
+IND,India,SP.POP.TOTL,Population,Population,people,number,2024,1450935791
+ZAF,South Africa,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,4.361152465
+USA,United States,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,4.022

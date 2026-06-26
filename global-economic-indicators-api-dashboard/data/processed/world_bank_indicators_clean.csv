@@ -1,0 +1,617 @@
+country_code,country_name,indicator_code,short_name,dashboard_name,unit,format_type,year,value
+BRA,Brazil,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2014,2.46E+12
+BRA,Brazil,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2015,1.80E+12
+BRA,Brazil,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2016,1.80E+12
+BRA,Brazil,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2017,2.06E+12
+BRA,Brazil,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2018,1.92E+12
+BRA,Brazil,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2019,1.87E+12
+BRA,Brazil,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2020,1.48E+12
+BRA,Brazil,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2021,1.67E+12
+BRA,Brazil,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2022,1.95E+12
+BRA,Brazil,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2023,2.19E+12
+BRA,Brazil,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,2.19E+12
+BRA,Brazil,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2014,0.50395574
+BRA,Brazil,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2015,-3.545763393
+BRA,Brazil,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2016,-3.275916906
+BRA,Brazil,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2017,1.322869054
+BRA,Brazil,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2018,1.783666761
+BRA,Brazil,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2019,1.220777823
+BRA,Brazil,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2020,-3.276758796
+BRA,Brazil,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2021,4.76260438
+BRA,Brazil,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2022,3.016694354
+BRA,Brazil,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2023,3.241655328
+BRA,Brazil,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,3.419315166
+BRA,Brazil,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2014,6.329040155
+BRA,Brazil,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2015,9.029901024
+BRA,Brazil,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2016,8.739143523
+BRA,Brazil,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2017,3.44637335
+BRA,Brazil,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2018,3.664850284
+BRA,Brazil,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2019,3.732976212
+BRA,Brazil,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2020,3.211768038
+BRA,Brazil,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2021,8.301659756
+BRA,Brazil,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2022,9.28010609
+BRA,Brazil,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2023,4.593562823
+BRA,Brazil,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,4.367464077
+BRA,Brazil,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2014,54.55100188
+BRA,Brazil,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2015,58.32795173
+BRA,Brazil,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2016,60.87254007
+BRA,Brazil,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2017,67.47128452
+BRA,Brazil,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2018,70.43428254
+BRA,Brazil,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2019,73.91243991
+BRA,Brazil,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2020,81.34269353
+BRA,Brazil,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2021,80.68989314
+BRA,Brazil,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2022,80.52775094
+BRA,Brazil,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2023,84.15060238
+BRA,Brazil,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,84.46347227
+BRA,Brazil,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2014,74.823
+BRA,Brazil,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2015,75.106
+BRA,Brazil,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2016,75.081
+BRA,Brazil,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2017,75.383
+BRA,Brazil,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2018,75.633
+BRA,Brazil,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2019,75.809
+BRA,Brazil,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2020,74.506
+BRA,Brazil,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2021,73.038
+BRA,Brazil,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2022,74.872
+BRA,Brazil,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2023,75.848
+BRA,Brazil,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,76.023
+BRA,Brazil,SP.POP.TOTL,Population,Population,people,number,2014,200085127
+BRA,Brazil,SP.POP.TOTL,Population,Population,people,number,2015,201675532
+BRA,Brazil,SP.POP.TOTL,Population,Population,people,number,2016,203218114
+BRA,Brazil,SP.POP.TOTL,Population,Population,people,number,2017,204703445
+BRA,Brazil,SP.POP.TOTL,Population,Population,people,number,2018,206107261
+BRA,Brazil,SP.POP.TOTL,Population,Population,people,number,2019,207455459
+BRA,Brazil,SP.POP.TOTL,Population,Population,people,number,2020,208660842
+BRA,Brazil,SP.POP.TOTL,Population,Population,people,number,2021,209550294
+BRA,Brazil,SP.POP.TOTL,Population,Population,people,number,2022,210306415
+BRA,Brazil,SP.POP.TOTL,Population,Population,people,number,2023,211140729
+BRA,Brazil,SP.POP.TOTL,Population,Population,people,number,2024,211998573
+BRA,Brazil,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2014,6.755
+BRA,Brazil,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2015,8.538
+BRA,Brazil,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2016,11.58
+BRA,Brazil,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2017,12.792
+BRA,Brazil,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2018,12.329
+BRA,Brazil,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2019,11.936
+BRA,Brazil,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2020,13.697
+BRA,Brazil,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2021,13.158
+BRA,Brazil,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2022,9.231
+BRA,Brazil,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2023,7.947
+BRA,Brazil,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,6.801
+CHN,China,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2014,1.07E+13
+CHN,China,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2015,1.13E+13
+CHN,China,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2016,1.15E+13
+CHN,China,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2017,1.25E+13
+CHN,China,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2018,1.41E+13
+CHN,China,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2019,1.46E+13
+CHN,China,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2020,1.50E+13
+CHN,China,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2021,1.82E+13
+CHN,China,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2022,1.83E+13
+CHN,China,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2023,1.83E+13
+CHN,China,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,1.87E+13
+CHN,China,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2014,7.461900282
+CHN,China,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2015,6.978780027
+CHN,China,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2016,6.775555628
+CHN,China,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2017,6.891266362
+CHN,China,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2018,6.756718002
+CHN,China,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2019,6.068502351
+CHN,China,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2020,2.340188431
+CHN,China,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2021,8.570085132
+CHN,China,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2022,3.134188872
+CHN,China,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2023,5.414843301
+CHN,China,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,4.977356592
+CHN,China,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2014,1.921641628
+CHN,China,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2015,1.437023809
+CHN,China,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2016,2.000001822
+CHN,China,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2017,1.593136001
+CHN,China,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2018,2.0747904
+CHN,China,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2019,2.899234164
+CHN,China,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2020,2.419421895
+CHN,China,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2021,0.981015136
+CHN,China,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2022,1.973575557
+CHN,China,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2023,0.234836829
+CHN,China,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,0.218128938
+CHN,China,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2014,47.90000153
+CHN,China,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2015,50.29999924
+CHN,China,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2016,53.2
+CHN,China,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2017,54.3
+CHN,China,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2018,65.35839844
+CHN,China,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2019,64.0808813
+CHN,China,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2020,70.05275998
+CHN,China,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2021,73.05323517
+CHN,China,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2022,75.61131603
+CHN,China,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2023,90.6
+CHN,China,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,92
+CHN,China,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2014,76.714
+CHN,China,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2015,76.975
+CHN,China,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2016,77.214
+CHN,China,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2017,77.235
+CHN,China,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2018,77.709
+CHN,China,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2019,77.94
+CHN,China,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2020,78.019
+CHN,China,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2021,78.117
+CHN,China,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2022,78.202
+CHN,China,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2023,77.953
+CHN,China,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,78.017
+CHN,China,SP.POP.TOTL,Population,Population,people,number,2014,1371860000
+CHN,China,SP.POP.TOTL,Population,Population,people,number,2015,1379860000
+CHN,China,SP.POP.TOTL,Population,Population,people,number,2016,1387790000
+CHN,China,SP.POP.TOTL,Population,Population,people,number,2017,1396215000
+CHN,China,SP.POP.TOTL,Population,Population,people,number,2018,1402760000
+CHN,China,SP.POP.TOTL,Population,Population,people,number,2019,1407745000
+CHN,China,SP.POP.TOTL,Population,Population,people,number,2020,1411100000
+CHN,China,SP.POP.TOTL,Population,Population,people,number,2021,1412360000
+CHN,China,SP.POP.TOTL,Population,Population,people,number,2022,1412175000
+CHN,China,SP.POP.TOTL,Population,Population,people,number,2023,1410710000
+CHN,China,SP.POP.TOTL,Population,Population,people,number,2024,1408975000
+CHN,China,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2014,4.63
+CHN,China,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2015,4.65
+CHN,China,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2016,4.56
+CHN,China,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2017,4.47
+CHN,China,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2018,4.31
+CHN,China,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2019,4.56
+CHN,China,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2020,5
+CHN,China,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2021,4.55
+CHN,China,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2022,4.98
+CHN,China,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2023,4.67
+CHN,China,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,4.59
+DEU,Germany,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2014,3.96E+12
+DEU,Germany,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2015,3.43E+12
+DEU,Germany,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2016,3.54E+12
+DEU,Germany,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2017,3.77E+12
+DEU,Germany,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2018,4.06E+12
+DEU,Germany,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2019,3.96E+12
+DEU,Germany,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2020,3.94E+12
+DEU,Germany,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2021,4.36E+12
+DEU,Germany,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2022,4.20E+12
+DEU,Germany,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2023,4.56E+12
+DEU,Germany,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,4.69E+12
+DEU,Germany,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2014,2.180186022
+DEU,Germany,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2015,1.663006023
+DEU,Germany,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2016,2.222222163
+DEU,Germany,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2017,2.797906721
+DEU,Germany,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2018,1.135696046
+DEU,Germany,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2019,0.977734697
+DEU,Germany,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2020,-4.131914432
+DEU,Germany,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2021,3.909999942
+DEU,Germany,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2022,1.809258124
+DEU,Germany,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2023,-0.869647579
+DEU,Germany,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,-0.495851897
+DEU,Germany,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2014,0.906794
+DEU,Germany,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2015,0.514426137
+DEU,Germany,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2016,0.491747008
+DEU,Germany,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2017,1.509494851
+DEU,Germany,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2018,1.732168798
+DEU,Germany,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2019,1.445659769
+DEU,Germany,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2020,0.144877926
+DEU,Germany,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2021,3.066666667
+DEU,Germany,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2022,6.872574386
+DEU,Germany,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2023,5.946436677
+DEU,Germany,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,2.256498143
+DEU,Germany,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2014,86.19370066
+DEU,Germany,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2015,87.58979935
+DEU,Germany,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2016,84.16520664
+DEU,Germany,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2017,84.3941537
+DEU,Germany,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2018,87.03711209
+DEU,Germany,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2019,88.13451691
+DEU,Germany,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2020,89.81294133
+DEU,Germany,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2021,91.43060973
+DEU,Germany,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2022,91.62984383
+DEU,Germany,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2023,92.4763763
+DEU,Germany,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,93.49999579
+DEU,Germany,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2014,81.0902439
+DEU,Germany,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2015,80.64146341
+DEU,Germany,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2016,80.9902439
+DEU,Germany,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2017,80.99268293
+DEU,Germany,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2018,80.89268293
+DEU,Germany,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2019,81.29268293
+DEU,Germany,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2020,81.04146341
+DEU,Germany,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2021,80.7902439
+DEU,Germany,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2022,80.60804878
+DEU,Germany,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2023,81.04146341
+DEU,Germany,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,80.79268293
+DEU,Germany,SP.POP.TOTL,Population,Population,people,number,2014,80982500
+DEU,Germany,SP.POP.TOTL,Population,Population,people,number,2015,81686611
+DEU,Germany,SP.POP.TOTL,Population,Population,people,number,2016,82348669
+DEU,Germany,SP.POP.TOTL,Population,Population,people,number,2017,82657002
+DEU,Germany,SP.POP.TOTL,Population,Population,people,number,2018,82905782
+DEU,Germany,SP.POP.TOTL,Population,Population,people,number,2019,83092962
+DEU,Germany,SP.POP.TOTL,Population,Population,people,number,2020,83160871
+DEU,Germany,SP.POP.TOTL,Population,Population,people,number,2021,83196078
+DEU,Germany,SP.POP.TOTL,Population,Population,people,number,2022,83177813
+DEU,Germany,SP.POP.TOTL,Population,Population,people,number,2023,83287273
+DEU,Germany,SP.POP.TOTL,Population,Population,people,number,2024,83516593
+DEU,Germany,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2014,4.979
+DEU,Germany,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2015,4.612
+DEU,Germany,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2016,4.104
+DEU,Germany,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2017,3.781
+DEU,Germany,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2018,3.384
+DEU,Germany,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2019,3.163
+DEU,Germany,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2020,3.881
+DEU,Germany,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2021,3.594
+DEU,Germany,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2022,3.137
+DEU,Germany,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2023,3.071
+DEU,Germany,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,3.4
+IND,India,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2014,2.04E+12
+IND,India,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2015,2.10E+12
+IND,India,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2016,2.29E+12
+IND,India,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2017,2.65E+12
+IND,India,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2018,2.70E+12
+IND,India,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2019,2.84E+12
+IND,India,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2020,2.67E+12
+IND,India,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2021,3.17E+12
+IND,India,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2022,3.35E+12
+IND,India,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2023,3.64E+12
+IND,India,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,3.91E+12
+IND,India,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2014,7.410227605
+IND,India,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2015,7.996253786
+IND,India,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2016,8.256305502
+IND,India,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2017,6.795383419
+IND,India,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2018,6.453851345
+IND,India,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2019,3.871436941
+IND,India,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2020,-5.777724707
+IND,India,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2021,9.689592492
+IND,India,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2022,7.609364978
+IND,India,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2023,9.19075493
+IND,India,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,6.494765524
+IND,India,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2014,6.665656719
+IND,India,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2015,4.906973441
+IND,India,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2016,4.948216341
+IND,India,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2017,3.328173375
+IND,India,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2018,3.938826467
+IND,India,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2019,3.729505735
+IND,India,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2020,6.623436776
+IND,India,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2021,5.131407472
+IND,India,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2022,6.699034141
+IND,India,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2023,5.649143189
+IND,India,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,4.95303551
+IND,India,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2014,13.5
+IND,India,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2015,14.89999962
+IND,India,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2016,16.5
+IND,India,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2017,18.20000076
+IND,India,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2018,20.08130004
+IND,India,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2019,29.52350044
+IND,India,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2020,43.40544313
+IND,India,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2021,49.2580986
+IND,India,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2022,55.9
+IND,India,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2023,60.25230026
+IND,India,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,64.9434967
+IND,India,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2014,68.932
+IND,India,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2015,69.326
+IND,India,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2016,69.709
+IND,India,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2017,70.068
+IND,India,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2018,70.415
+IND,India,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2019,70.746
+IND,India,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2020,70.156
+IND,India,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2021,67.282
+IND,India,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2022,71.698
+IND,India,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2023,72.003
+IND,India,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,72.235
+IND,India,SP.POP.TOTL,Population,Population,people,number,2014,1312277191
+IND,India,SP.POP.TOTL,Population,Population,people,number,2015,1328024498
+IND,India,SP.POP.TOTL,Population,Population,people,number,2016,1343944296
+IND,India,SP.POP.TOTL,Population,Population,people,number,2017,1359657400
+IND,India,SP.POP.TOTL,Population,Population,people,number,2018,1374659064
+IND,India,SP.POP.TOTL,Population,Population,people,number,2019,1389030312
+IND,India,SP.POP.TOTL,Population,Population,people,number,2020,1402617695
+IND,India,SP.POP.TOTL,Population,Population,people,number,2021,1414203896
+IND,India,SP.POP.TOTL,Population,Population,people,number,2022,1425423212
+IND,India,SP.POP.TOTL,Population,Population,people,number,2023,1438069596
+IND,India,SP.POP.TOTL,Population,Population,people,number,2024,1450935791
+IND,India,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2014,7.656
+IND,India,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2015,7.629
+IND,India,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2016,7.611
+IND,India,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2017,7.626
+IND,India,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2018,7.652
+IND,India,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2019,6.51
+IND,India,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2020,7.859
+IND,India,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2021,6.38
+IND,India,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2022,4.822
+IND,India,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2023,4.172
+IND,India,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,4.173
+JPN,Japan,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2014,4.90E+12
+JPN,Japan,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2015,4.44E+12
+JPN,Japan,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2016,5.00E+12
+JPN,Japan,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2017,4.93E+12
+JPN,Japan,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2018,5.04E+12
+JPN,Japan,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2019,5.12E+12
+JPN,Japan,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2020,5.05E+12
+JPN,Japan,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2021,5.04E+12
+JPN,Japan,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2022,4.26E+12
+JPN,Japan,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2023,4.21E+12
+JPN,Japan,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,4.03E+12
+JPN,Japan,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2014,0.296205514
+JPN,Japan,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2015,1.560626697
+JPN,Japan,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2016,0.753826746
+JPN,Japan,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2017,1.675331752
+JPN,Japan,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2018,0.643391024
+JPN,Japan,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2019,-0.402169201
+JPN,Japan,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2020,-4.168764571
+JPN,Japan,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2021,2.696574042
+JPN,Japan,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2022,0.941998775
+JPN,Japan,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2023,1.475034811
+JPN,Japan,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,0.104309022
+JPN,Japan,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2014,2.759226714
+JPN,Japan,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2015,0.795279631
+JPN,Japan,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2016,-0.127258844
+JPN,Japan,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2017,0.484199796
+JPN,Japan,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2018,0.989094598
+JPN,Japan,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2019,0.468776159
+JPN,Japan,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2020,-0.024995834
+JPN,Japan,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2021,-0.233352779
+JPN,Japan,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2022,2.497702782
+JPN,Japan,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2023,3.268133659
+JPN,Japan,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,2.738536816
+JPN,Japan,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2014,89.10683302
+JPN,Japan,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2015,91.05802839
+JPN,Japan,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2016,93.18272128
+JPN,Japan,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2017,91.72654724
+JPN,Japan,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2018,88.74635089
+JPN,Japan,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2019,92.73039781
+JPN,Japan,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2020,90.21945812
+JPN,Japan,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2021,82.91407928
+JPN,Japan,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2022,84.92343147
+JPN,Japan,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2023,85.00990295
+JPN,Japan,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,85.54153081
+JPN,Japan,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2014,83.58780488
+JPN,Japan,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2015,83.79390244
+JPN,Japan,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2016,83.98487805
+JPN,Japan,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2017,84.0997561
+JPN,Japan,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2018,84.21097561
+JPN,Japan,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2019,84.35634146
+JPN,Japan,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2020,84.56
+JPN,Japan,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2021,84.44560976
+JPN,Japan,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2022,83.99634146
+JPN,Japan,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2023,84.04121951
+JPN,Japan,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,84.03634146
+JPN,Japan,SP.POP.TOTL,Population,Population,people,number,2014,127276000
+JPN,Japan,SP.POP.TOTL,Population,Population,people,number,2015,127141000
+JPN,Japan,SP.POP.TOTL,Population,Population,people,number,2016,127076000
+JPN,Japan,SP.POP.TOTL,Population,Population,people,number,2017,126972000
+JPN,Japan,SP.POP.TOTL,Population,Population,people,number,2018,126811000
+JPN,Japan,SP.POP.TOTL,Population,Population,people,number,2019,126633000
+JPN,Japan,SP.POP.TOTL,Population,Population,people,number,2020,126261000
+JPN,Japan,SP.POP.TOTL,Population,Population,people,number,2021,125681593
+JPN,Japan,SP.POP.TOTL,Population,Population,people,number,2022,125124989
+JPN,Japan,SP.POP.TOTL,Population,Population,people,number,2023,124516650
+JPN,Japan,SP.POP.TOTL,Population,Population,people,number,2024,123975371
+JPN,Japan,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2014,3.589
+JPN,Japan,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2015,3.385
+JPN,Japan,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2016,3.132
+JPN,Japan,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2017,2.822
+JPN,Japan,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2018,2.467
+JPN,Japan,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2019,2.351
+JPN,Japan,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2020,2.809
+JPN,Japan,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2021,2.808
+JPN,Japan,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2022,2.614
+JPN,Japan,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2023,2.6
+JPN,Japan,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,2.5
+ZAF,South Africa,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2014,3.81E+11
+ZAF,South Africa,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2015,3.47E+11
+ZAF,South Africa,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2016,3.24E+11
+ZAF,South Africa,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2017,3.81E+11
+ZAF,South Africa,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2018,4.05E+11
+ZAF,South Africa,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2019,3.89E+11
+ZAF,South Africa,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2020,3.38E+11
+ZAF,South Africa,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2021,4.20E+11
+ZAF,South Africa,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2022,4.08E+11
+ZAF,South Africa,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2023,3.81E+11
+ZAF,South Africa,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,4.01E+11
+ZAF,South Africa,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2014,1.413826452
+ZAF,South Africa,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2015,1.321862237
+ZAF,South Africa,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2016,0.664552308
+ZAF,South Africa,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2017,1.157946952
+ZAF,South Africa,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2018,1.556783847
+ZAF,South Africa,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2019,0.259935577
+ZAF,South Africa,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2020,-6.168917715
+ZAF,South Africa,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2021,4.858648651
+ZAF,South Africa,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2022,2.058136617
+ZAF,South Africa,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2023,0.806104551
+ZAF,South Africa,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,0.534843532
+ZAF,South Africa,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2014,6.132829531
+ZAF,South Africa,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2015,4.518690949
+ZAF,South Africa,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2016,6.602908424
+ZAF,South Africa,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2017,5.186186555
+ZAF,South Africa,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2018,4.509872649
+ZAF,South Africa,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2019,4.102850755
+ZAF,South Africa,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2020,3.232388316
+ZAF,South Africa,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2021,4.618745449
+ZAF,South Africa,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2022,7.039872725
+ZAF,South Africa,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2023,6.075243846
+ZAF,South Africa,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,4.361152465
+ZAF,South Africa,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2014,49
+ZAF,South Africa,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2015,51.91910172
+ZAF,South Africa,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2016,54
+ZAF,South Africa,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2017,56.16740036
+ZAF,South Africa,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2018,62.40000153
+ZAF,South Africa,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2019,69.69689941
+ZAF,South Africa,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2020,72.1128006
+ZAF,South Africa,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2021,74.96859741
+ZAF,South Africa,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2022,78.29319763
+ZAF,South Africa,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2023,78.33670044
+ZAF,South Africa,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,78.35759735
+ZAF,South Africa,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2014,63.184
+ZAF,South Africa,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2015,64.053
+ZAF,South Africa,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2016,64.749
+ZAF,South Africa,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2017,65.422
+ZAF,South Africa,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2018,65.726
+ZAF,South Africa,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2019,66.071
+ZAF,South Africa,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2020,65.15
+ZAF,South Africa,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2021,62.01
+ZAF,South Africa,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2022,65.454
+ZAF,South Africa,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2023,66.139
+ZAF,South Africa,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,66.312
+ZAF,South Africa,SP.POP.TOTL,Population,Population,people,number,2014,55594838
+ZAF,South Africa,SP.POP.TOTL,Population,Population,people,number,2015,56723537
+ZAF,South Africa,SP.POP.TOTL,Population,Population,people,number,2016,57259551
+ZAF,South Africa,SP.POP.TOTL,Population,Population,people,number,2017,57635162
+ZAF,South Africa,SP.POP.TOTL,Population,Population,people,number,2018,58613001
+ZAF,South Africa,SP.POP.TOTL,Population,Population,people,number,2019,59587885
+ZAF,South Africa,SP.POP.TOTL,Population,Population,people,number,2020,60562381
+ZAF,South Africa,SP.POP.TOTL,Population,Population,people,number,2021,61502603
+ZAF,South Africa,SP.POP.TOTL,Population,Population,people,number,2022,62378410
+ZAF,South Africa,SP.POP.TOTL,Population,Population,people,number,2023,63212384
+ZAF,South Africa,SP.POP.TOTL,Population,Population,people,number,2024,64007187
+ZAF,South Africa,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2014,24.89
+ZAF,South Africa,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2015,25.149
+ZAF,South Africa,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2016,26.536
+ZAF,South Africa,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2017,27.035
+ZAF,South Africa,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2018,26.906
+ZAF,South Africa,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2019,28.468
+ZAF,South Africa,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2020,29.217
+ZAF,South Africa,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2021,34.007
+ZAF,South Africa,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2022,33.268
+ZAF,South Africa,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2023,32.098
+ZAF,South Africa,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,32.279
+GBR,United Kingdom,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2014,3.09E+12
+GBR,United Kingdom,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2015,2.95E+12
+GBR,United Kingdom,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2016,2.71E+12
+GBR,United Kingdom,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2017,2.70E+12
+GBR,United Kingdom,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2018,2.90E+12
+GBR,United Kingdom,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2019,2.88E+12
+GBR,United Kingdom,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2020,2.72E+12
+GBR,United Kingdom,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2021,3.19E+12
+GBR,United Kingdom,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2022,3.18E+12
+GBR,United Kingdom,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2023,3.42E+12
+GBR,United Kingdom,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,3.69E+12
+GBR,United Kingdom,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2014,3.160173515
+GBR,United Kingdom,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2015,2.1404056
+GBR,United Kingdom,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2016,2.206520206
+GBR,United Kingdom,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2017,3.023222198
+GBR,United Kingdom,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2018,1.551330951
+GBR,United Kingdom,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2019,1.256298998
+GBR,United Kingdom,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2020,-10.04789664
+GBR,United Kingdom,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2021,8.543111845
+GBR,United Kingdom,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2022,5.149703885
+GBR,United Kingdom,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2023,0.271650048
+GBR,United Kingdom,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,1.126422671
+GBR,United Kingdom,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2014,1.451120163
+GBR,United Kingdom,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2015,0.368046842
+GBR,United Kingdom,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2016,1.008417368
+GBR,United Kingdom,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2017,2.557755776
+GBR,United Kingdom,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2018,2.292839903
+GBR,United Kingdom,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2019,1.738104601
+GBR,United Kingdom,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2020,0.989486704
+GBR,United Kingdom,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2021,2.518371096
+GBR,United Kingdom,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2022,7.922048831
+GBR,United Kingdom,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2023,6.793967068
+GBR,United Kingdom,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,3.271572946
+GBR,United Kingdom,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2014,91.61330092
+GBR,United Kingdom,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2015,92.00029987
+GBR,United Kingdom,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2016,94.77580063
+GBR,United Kingdom,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2017,90.42455049
+GBR,United Kingdom,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2018,90.69200899
+GBR,United Kingdom,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2019,92.51662855
+GBR,United Kingdom,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2020,94.81820132
+GBR,United Kingdom,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2021,96.19650269
+GBR,United Kingdom,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2022,95.46530151
+GBR,United Kingdom,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2023,95.44719696
+GBR,United Kingdom,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,95.4720993
+GBR,United Kingdom,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2014,81.30487805
+GBR,United Kingdom,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2015,80.95609756
+GBR,United Kingdom,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2016,81.15609756
+GBR,United Kingdom,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2017,81.25609756
+GBR,United Kingdom,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2018,81.25609756
+GBR,United Kingdom,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2019,81.36912195
+GBR,United Kingdom,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2020,80.3317561
+GBR,United Kingdom,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2021,80.64731707
+GBR,United Kingdom,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2022,81.01121951
+GBR,United Kingdom,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2023,81.23809756
+GBR,United Kingdom,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,81.38685366
+GBR,United Kingdom,SP.POP.TOTL,Population,Population,people,number,2014,64620000
+GBR,United Kingdom,SP.POP.TOTL,Population,Population,people,number,2015,65088000
+GBR,United Kingdom,SP.POP.TOTL,Population,Population,people,number,2016,65607000
+GBR,United Kingdom,SP.POP.TOTL,Population,Population,people,number,2017,65966000
+GBR,United Kingdom,SP.POP.TOTL,Population,Population,people,number,2018,66289000
+GBR,United Kingdom,SP.POP.TOTL,Population,Population,people,number,2019,66631000
+GBR,United Kingdom,SP.POP.TOTL,Population,Population,people,number,2020,66744000
+GBR,United Kingdom,SP.POP.TOTL,Population,Population,people,number,2021,66984000
+GBR,United Kingdom,SP.POP.TOTL,Population,Population,people,number,2022,67604000
+GBR,United Kingdom,SP.POP.TOTL,Population,Population,people,number,2023,68492000
+GBR,United Kingdom,SP.POP.TOTL,Population,Population,people,number,2024,69226000
+GBR,United Kingdom,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2014,6.398
+GBR,United Kingdom,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2015,5.552
+GBR,United Kingdom,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2016,4.909
+GBR,United Kingdom,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2017,4.501
+GBR,United Kingdom,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2018,4.145
+GBR,United Kingdom,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2019,3.657
+GBR,United Kingdom,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2020,4.472
+GBR,United Kingdom,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2021,4.864
+GBR,United Kingdom,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2022,3.768
+GBR,United Kingdom,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2023,4.025
+GBR,United Kingdom,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,4.361
+USA,United States,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2014,1.76E+13
+USA,United States,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2015,1.82E+13
+USA,United States,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2016,1.87E+13
+USA,United States,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2017,1.95E+13
+USA,United States,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2018,2.05E+13
+USA,United States,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2019,2.14E+13
+USA,United States,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2020,2.11E+13
+USA,United States,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2021,2.33E+13
+USA,United States,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2022,2.56E+13
+USA,United States,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2023,2.73E+13
+USA,United States,NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency,2024,2.88E+13
+USA,United States,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2014,2.523819814
+USA,United States,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2015,2.945550455
+USA,United States,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2016,1.819451478
+USA,United States,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2017,2.457622299
+USA,United States,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2018,2.966505069
+USA,United States,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2019,2.583825334
+USA,United States,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2020,-2.16302914
+USA,United States,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2021,6.055052932
+USA,United States,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2022,2.51237532
+USA,United States,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2023,2.887556007
+USA,United States,NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent,2024,2.793001277
+USA,United States,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2014,1.622222977
+USA,United States,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2015,0.118627136
+USA,United States,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2016,1.261583206
+USA,United States,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2017,2.130110004
+USA,United States,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2018,2.442583297
+USA,United States,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2019,1.812210075
+USA,United States,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2020,1.233584396
+USA,United States,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2021,4.697858864
+USA,United States,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2022,8.002799821
+USA,United States,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2023,4.116338384
+USA,United States,FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent,2024,2.949525205
+USA,United States,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2014,73
+USA,United States,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2015,74.55420245
+USA,United States,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2016,85.54442129
+USA,United States,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2017,87.27488917
+USA,United States,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2018,88.49890317
+USA,United States,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2019,89.43028486
+USA,United States,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2020,90.34470367
+USA,United States,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2021,91.2684021
+USA,United States,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2022,92.72850037
+USA,United States,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2023,93.52559662
+USA,United States,IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent,2024,94.69380188
+USA,United States,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2014,78.84146341
+USA,United States,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2015,78.6902439
+USA,United States,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2016,78.53902439
+USA,United States,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2017,78.53902439
+USA,United States,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2018,78.63902439
+USA,United States,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2019,78.78780488
+USA,United States,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2020,76.9804878
+USA,United States,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2021,76.32926829
+USA,United States,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2022,77.43414634
+USA,United States,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2023,78.38536585
+USA,United States,SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number,2024,78.8902439
+USA,United States,SP.POP.TOTL,Population,Population,people,number,2014,319257560
+USA,United States,SP.POP.TOTL,Population,Population,people,number,2015,321815121
+USA,United States,SP.POP.TOTL,Population,Population,people,number,2016,324353340
+USA,United States,SP.POP.TOTL,Population,Population,people,number,2017,326608609
+USA,United States,SP.POP.TOTL,Population,Population,people,number,2018,328529577
+USA,United States,SP.POP.TOTL,Population,Population,people,number,2019,330226227
+USA,United States,SP.POP.TOTL,Population,Population,people,number,2020,331577720
+USA,United States,SP.POP.TOTL,Population,Population,people,number,2021,332099760
+USA,United States,SP.POP.TOTL,Population,Population,people,number,2022,334017321
+USA,United States,SP.POP.TOTL,Population,Population,people,number,2023,336806231
+USA,United States,SP.POP.TOTL,Population,Population,people,number,2024,340110988
+USA,United States,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2014,6.168
+USA,United States,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2015,5.28
+USA,United States,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2016,4.869
+USA,United States,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2017,4.355
+USA,United States,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2018,3.896
+USA,United States,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2019,3.669
+USA,United States,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2020,8.055
+USA,United States,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2021,5.349
+USA,United States,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2022,3.65
+USA,United States,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2023,3.638
+USA,United States,SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent,2024,4.022

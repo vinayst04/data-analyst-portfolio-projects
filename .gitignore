@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.env
+*.log
+~$*.docx
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+screenshots/
+outputs/charts/

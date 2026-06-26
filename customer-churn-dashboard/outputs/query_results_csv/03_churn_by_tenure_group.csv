@@ -1,0 +1,6 @@
+tenure_group,total_customers,churned_customers,churn_rate_percent,monthly_revenue_at_risk
+0-6 Months,1481,784,52.94,49896.1
+7-12 Months,705,253,35.89,19058.15
+13-24 Months,1024,294,28.71,23081.65
+25-48 Months,1594,325,20.39,27462.5
+49+ Months,2239,213,9.51,19632.45

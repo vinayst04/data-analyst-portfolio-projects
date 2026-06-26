@@ -1,0 +1,8 @@
+indicator_code,short_name,dashboard_name,unit,format_type
+NY.GDP.MKTP.CD,GDP Current US$,GDP,current US$,currency
+NY.GDP.MKTP.KD.ZG,GDP Growth %,GDP Growth,annual %,percent
+FP.CPI.TOTL.ZG,Inflation %,Inflation,annual %,percent
+SL.UEM.TOTL.ZS,Unemployment %,Unemployment,% of labor force,percent
+SP.POP.TOTL,Population,Population,people,number
+IT.NET.USER.ZS,Internet Users %,Internet Users,% of population,percent
+SP.DYN.LE00.IN,Life Expectancy,Life Expectancy,years,number

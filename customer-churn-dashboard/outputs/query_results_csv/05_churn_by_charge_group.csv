@@ -1,0 +1,4 @@
+charge_group,total_customers,churned_customers,churn_rate_percent,monthly_revenue_at_risk
+High Charge,3583,1267,35.36,112491.0
+Medium Charge,1725,413,23.94,22181.8
+Low Charge,1735,189,10.89,4458.05

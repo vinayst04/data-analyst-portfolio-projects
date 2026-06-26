@@ -1,0 +1,13 @@
+Total Tweets = COUNTROWS(airline_sentiment_clean)
+
+Negative Tweets = CALCULATE([Total Tweets], airline_sentiment_clean[sentiment] = "negative")
+
+Neutral Tweets = CALCULATE([Total Tweets], airline_sentiment_clean[sentiment] = "neutral")
+
+Positive Tweets = CALCULATE([Total Tweets], airline_sentiment_clean[sentiment] = "positive")
+
+Negative Tweet % = DIVIDE([Negative Tweets], [Total Tweets])
+
+Positive Tweet % = DIVIDE([Positive Tweets], [Total Tweets])
+
+Average Sentiment Confidence = AVERAGE(airline_sentiment_clean[sentiment_confidence])

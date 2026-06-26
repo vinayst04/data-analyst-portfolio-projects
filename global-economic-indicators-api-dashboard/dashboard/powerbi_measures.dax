@@ -1,0 +1,34 @@
+Total Rows = COUNTROWS(world_bank_indicators_clean)
+
+Country Count = DISTINCTCOUNT(country_metadata[country_code])
+
+Indicator Count = DISTINCTCOUNT(indicator_metadata[indicator_code])
+
+Rows With Values = COUNTROWS(FILTER(world_bank_indicators_clean, NOT(ISBLANK(world_bank_indicators_clean[value]))))
+
+Data Availability % = DIVIDE([Rows With Values], [Total Rows])
+
+Latest Value = MAX(world_bank_latest_indicators[value])
+
+GDP Current USD = CALCULATE(MAX(world_bank_latest_indicators[value]), world_bank_latest_indicators[indicator_code] = "NY.GDP.MKTP.CD")
+
+GDP Trillion USD = DIVIDE(
+    [GDP Current USD],
+    1000000000000
+)
+
+Population = CALCULATE(MAX(world_bank_latest_indicators[value]), world_bank_latest_indicators[indicator_code] = "SP.POP.TOTL")
+
+Population Millions = DIVIDE([Population], 1000000)
+
+GDP Per Capita USD = DIVIDE([GDP Current USD], [Population])
+
+GDP Growth % = CALCULATE(MAX(world_bank_latest_indicators[value]), world_bank_latest_indicators[indicator_code] = "NY.GDP.MKTP.KD.ZG")
+
+Inflation % = CALCULATE(MAX(world_bank_latest_indicators[value]), world_bank_latest_indicators[indicator_code] = "FP.CPI.TOTL.ZG")
+
+Unemployment % = CALCULATE(MAX(world_bank_latest_indicators[value]), world_bank_latest_indicators[indicator_code] = "SL.UEM.TOTL.ZS")
+
+Internet Users % = CALCULATE(MAX(world_bank_latest_indicators[value]), world_bank_latest_indicators[indicator_code] = "IT.NET.USER.ZS")
+
+Life Expectancy = CALCULATE(MAX(world_bank_latest_indicators[value]), world_bank_latest_indicators[indicator_code] = "SP.DYN.LE00.IN")

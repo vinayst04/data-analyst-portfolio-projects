@@ -1,0 +1,9 @@
+country_code,country_name,region,income_level,capital_city,longitude,latitude
+IND,India,South Asia,Lower middle income,New Delhi,77.225,28.6353
+USA,United States,North America,High income,Washington D.C.,-77.032,38.8895
+CHN,China,East Asia & Pacific,Upper middle income,Beijing,116.286,40.0495
+DEU,Germany,Europe & Central Asia,High income,Berlin,13.4115,52.5235
+GBR,United Kingdom,Europe & Central Asia,High income,London,-0.126236,51.5002
+JPN,Japan,East Asia & Pacific,High income,Tokyo,139.77,35.67
+BRA,Brazil,Latin America & Caribbean,Upper middle income,Brasilia,-47.9292,-15.7801
+ZAF,South Africa,Sub-Saharan Africa,Upper middle income,Pretoria,28.1871,-25.746

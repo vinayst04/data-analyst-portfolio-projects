@@ -1,0 +1,16 @@
+contract,tenure_group,charge_group,total_customers,churned_customers,churn_rate_percent,monthly_revenue_at_risk
+Month-to-month,0-6 Months,High Charge,558,406,72.76,33479.7
+Month-to-month,7-12 Months,High Charge,298,185,62.08,16116.4
+Month-to-month,0-6 Months,Medium Charge,465,250,53.76,13364.85
+Month-to-month,13-24 Months,High Charge,430,211,49.07,18779.75
+Month-to-month,25-48 Months,High Charge,539,225,41.74,20706.2
+Month-to-month,0-6 Months,Low Charge,390,124,31.79,2836.75
+Month-to-month,49+ Months,High Charge,272,78,28.68,7494.75
+Month-to-month,13-24 Months,Medium Charge,196,53,27.04,2854.95
+Month-to-month,7-12 Months,Medium Charge,164,36,21.95,1922.55
+Month-to-month,7-12 Months,Low Charge,119,23,19.33,581.2
+One year,25-48 Months,High Charge,230,41,17.83,3815.4
+One year,13-24 Months,High Charge,40,7,17.5,640.3
+One year,49+ Months,High Charge,433,74,17.09,7460.1
+Month-to-month,49+ Months,Medium Charge,61,10,16.39,494.2
+Month-to-month,25-48 Months,Medium Charge,184,29,15.76,1571.8

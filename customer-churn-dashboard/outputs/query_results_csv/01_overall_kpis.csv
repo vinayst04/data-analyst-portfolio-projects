@@ -1,0 +1,2 @@
+total_customers,churned_customers,retained_customers,churn_rate_percent,average_monthly_charges,monthly_revenue_at_risk,annual_revenue_at_risk
+7043,1869,5174,26.54,64.76,139130.85,1669570.2

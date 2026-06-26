@@ -1,0 +1,5 @@
+discount_band,total_rows,sales,profit,profit_margin_percent
+No Discount,4798,1087908.47,320987.6,29.51
+Low Discount,94,54369.35,9029.18,16.61
+Medium Discount,3936,895379.54,81387.02,9.09
+High Discount,1166,259543.49,-125006.78,-48.16

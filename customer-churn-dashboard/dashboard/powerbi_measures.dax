@@ -1,0 +1,15 @@
+Total Customers = COUNTROWS(telco_churn_clean)
+
+Churned Customers = SUM(telco_churn_clean[churn_flag])
+
+Retained Customers = [Total Customers] - [Churned Customers]
+
+Churn Rate % = DIVIDE([Churned Customers], [Total Customers])
+
+Average Monthly Charges = AVERAGE(telco_churn_clean[monthly_charges])
+
+Average Tenure = AVERAGE(telco_churn_clean[tenure])
+
+Monthly Revenue At Risk = SUM(telco_churn_clean[monthly_revenue_at_risk])
+
+Annual Revenue At Risk = SUM(telco_churn_clean[annual_revenue_at_risk])

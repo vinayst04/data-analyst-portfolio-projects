@@ -1,0 +1,4 @@
+sentiment,tweets,total_retweets,average_retweets
+negative,9178,857,0.09
+neutral,3099,189,0.06
+positive,2363,164,0.07

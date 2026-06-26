@@ -1,0 +1,4 @@
+contract,total_customers,churned_customers,churn_rate_percent,monthly_revenue_at_risk
+Month-to-month,3875,1655,42.71,120847.1
+One year,1473,166,11.27,14118.45
+Two year,1695,48,2.83,4165.3
