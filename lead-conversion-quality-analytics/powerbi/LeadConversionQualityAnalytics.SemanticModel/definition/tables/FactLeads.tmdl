@@ -1,0 +1,291 @@
+/// Sanitized lead-level fact table. No direct personal identifiers are present.
+table FactLeads
+	lineageTag: d73e9f9f-4411-4d13-8f2b-7eb747ff98e2
+
+	/// Sanitized lead rows; Unknown outcomes remain in the denominator.
+	measure 'Total Leads' = COUNTROWS(FactLeads)
+		formatString: #,0
+		displayFolder: Core KPIs
+		lineageTag: 48743818-f5e6-429c-9821-2845cc409303
+
+	measure 'Closed Leads' = SUM(FactLeads[IsClosed])
+		formatString: #,0
+		displayFolder: Core KPIs
+		lineageTag: 1d84165d-408d-4933-8038-6ee4df91c849
+
+	measure 'Close Rate' = DIVIDE([Closed Leads], [Total Leads])
+		formatString: 0.00%
+		displayFolder: Core KPIs
+		lineageTag: 7cc62a4a-eec5-4a4a-b2b4-63108494f2be
+
+	measure 'Good Progression Leads' = SUM(FactLeads[IsGoodProgression])
+		formatString: #,0
+		displayFolder: Quality
+		lineageTag: 4f86658b-c2e1-4cc0-9edb-fc2a1d5f0351
+
+	measure 'Good Progression Rate' = DIVIDE([Good Progression Leads], [Total Leads])
+		formatString: 0.00%
+		displayFolder: Quality
+		lineageTag: a68aec4a-2c51-4baa-ac6f-90c60ea881e4
+
+	measure 'Bad Quality Leads' = SUM(FactLeads[IsBadQuality])
+		formatString: #,0
+		displayFolder: Quality
+		lineageTag: d052dbfa-01dc-4ddb-8b93-868462bd3793
+
+	measure 'Bad Quality Rate' = DIVIDE([Bad Quality Leads], [Total Leads])
+		formatString: 0.00%
+		displayFolder: Quality
+		lineageTag: 7e883474-6d43-467a-a5aa-75853605d8e0
+
+	measure 'Unknown Leads' = SUM(FactLeads[IsUnknown])
+		formatString: #,0
+		displayFolder: Quality
+		lineageTag: df34701c-a5cb-4b7c-a6f8-fded82aff037
+
+	measure 'Unknown Rate' = DIVIDE([Unknown Leads], [Total Leads])
+		formatString: 0.00%
+		displayFolder: Quality
+		lineageTag: 3249645f-6a0e-4014-bab4-3558a39a6156
+
+	measure 'Target Close Rate' = 0.096
+		formatString: 0.0%
+		displayFolder: Target
+		lineageTag: 10d6ae77-c6fd-4a95-8961-e84145235f88
+
+	measure 'Target Closes' = CEILING([Total Leads] * [Target Close Rate], 1)
+		formatString: #,0
+		displayFolder: Target
+		lineageTag: f12b0f63-b714-47dc-9807-edd20dc0f735
+
+	measure 'Incremental Closes Required' = MAX(0, [Target Closes] - [Closed Leads])
+		formatString: #,0
+		displayFolder: Target
+		lineageTag: 8f782086-0416-4bc5-97fa-8506a53bf770
+
+	measure 'Target Gap (pp)' = ([Target Close Rate] - [Close Rate]) * 100
+		formatString: 0.00
+		displayFolder: Target
+		lineageTag: ea5a74ea-af91-4b98-80dd-180d6338f1a7
+
+	measure 'Wilson Lower 95' = VAR n=[Total Leads] VAR p=[Close Rate] VAR z=1.96 VAR d=1+DIVIDE(z*z,n) VAR c=DIVIDE(p+DIVIDE(z*z,2*n),d) VAR m=DIVIDE(z*SQRT(DIVIDE(p*(1-p),n)+DIVIDE(z*z,4*n*n)),d) RETURN IF(n>0,MAX(0,c-m))
+		formatString: 0.00%
+		displayFolder: Uncertainty
+		lineageTag: b6088b60-c0c3-4daa-95ef-bedbf2615979
+
+	measure 'Wilson Upper 95' = VAR n=[Total Leads] VAR p=[Close Rate] VAR z=1.96 VAR d=1+DIVIDE(z*z,n) VAR c=DIVIDE(p+DIVIDE(z*z,2*n),d) VAR m=DIVIDE(z*SQRT(DIVIDE(p*(1-p),n)+DIVIDE(z*z,4*n*n)),d) RETURN IF(n>0,MIN(1,c+m))
+		formatString: 0.00%
+		displayFolder: Uncertainty
+		lineageTag: 7339917f-ee63-4d7c-b200-aeaf0fa43ccc
+
+	measure 'Scenario Leads Affected' = SELECTEDVALUE(TargetScenarios[LeadsAffected], MAX(TargetScenarios[LeadsAffected]))
+		formatString: #,0
+		displayFolder: Scenario
+		lineageTag: 746a8159-4df1-456c-b85a-9f88703b3c52
+
+	measure 'Scenario Destination Rate' = SELECTEDVALUE(TargetScenarios[AssumedDestinationRate], MAX(TargetScenarios[AssumedDestinationRate]))
+		formatString: 0.00%
+		displayFolder: Scenario
+		lineageTag: 49783be2-ab09-4957-b034-08eb5d5336a1
+
+	measure 'Scenario Incremental Closes' = SELECTEDVALUE(TargetScenarios[ExpectedIncrementalCloses], MAX(TargetScenarios[ExpectedIncrementalCloses]))
+		formatString: #,0.0
+		displayFolder: Scenario
+		lineageTag: 8fdcd36c-4203-4a57-9edb-32813e7f33d7
+
+	measure 'Scenario Total Closes' = [Closed Leads] + [Scenario Incremental Closes]
+		formatString: #,0.0
+		displayFolder: Scenario
+		lineageTag: a7f16cf9-2cef-4b57-ac1d-ee8ab4680c8b
+
+	measure 'Scenario Close Rate' = DIVIDE([Scenario Total Closes], [Total Leads])
+		formatString: 0.00%
+		displayFolder: Scenario
+		lineageTag: 9eab3cea-d94a-4917-8ad8-472380a9c525
+
+	measure 'Scenario Remaining Gap' = MAX(0, [Target Closes] - [Scenario Total Closes])
+		formatString: #,0.0
+		displayFolder: Scenario
+		lineageTag: 81316983-101b-4f4f-9627-97c38bed7113
+
+	measure 'Scenario Meets Target' = IF([Scenario Close Rate] >= [Target Close Rate], 1, 0)
+		formatString: 0
+		displayFolder: Scenario
+		lineageTag: 29f9f6d0-54a2-4ea4-91df-3b45ab479646
+
+	measure 'Scenario Revenue' = SELECTEDVALUE(TargetScenarios[CommercialRevenueAtStatedOffer], MAX(TargetScenarios[CommercialRevenueAtStatedOffer]))
+		formatString: $#,0
+		displayFolder: Scenario
+		lineageTag: 33544733-dbdf-4d4c-980e-42e343cb8b82
+
+	column LeadKey
+		dataType: string
+		lineageTag: c1da12a9-b0a3-48f3-a926-d0e5af065e7c
+		sourceColumn: LeadKey
+
+	column LeadCreated
+		dataType: dateTime
+		lineageTag: 11e10081-4ec1-46fd-88df-dca4ea589a35
+		sourceColumn: LeadCreated
+
+	column LeadDate
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 9908ec22-e8e5-4df9-ad40-610a03c2cb5a
+		sourceColumn: LeadDate
+
+	column WeekStart
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 442ee7f8-b772-46c2-97bf-6d669e285ea2
+		sourceColumn: WeekStart
+
+	column MonthStart
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 52cbce94-c5d1-4b00-ae33-2b9ab2638695
+		sourceColumn: MonthStart
+
+	column DaysSinceStart
+		dataType: int64
+		lineageTag: 0ff58fd6-d1e0-432c-b10c-fd8a39ad6dc4
+		summarizeBy: none
+		sourceColumn: DaysSinceStart
+
+	column CallStatus
+		dataType: string
+		lineageTag: e9898019-a3ce-4f11-83be-3ca55dec60da
+		sourceColumn: CallStatus
+
+	column OutcomeBucket
+		dataType: string
+		lineageTag: 31a7c50f-7a90-4a3a-a758-17748a796597
+		sourceColumn: OutcomeBucket
+
+	column IsClosed
+		dataType: int64
+		lineageTag: 7da87a98-3377-4fec-beb2-04159a086420
+		summarizeBy: none
+		sourceColumn: IsClosed
+
+	column IsGoodProgression
+		dataType: int64
+		lineageTag: 5097ce34-b158-4ab6-ab14-4d97e819a44b
+		summarizeBy: none
+		sourceColumn: IsGoodProgression
+
+	column IsBadQuality
+		dataType: int64
+		lineageTag: b024896b-28ac-4cc2-ac1d-1260a57d0038
+		summarizeBy: none
+		sourceColumn: IsBadQuality
+
+	column IsUnknown
+		dataType: int64
+		lineageTag: 23da2c12-70b4-49aa-ab62-32d75bc9c9b2
+		summarizeBy: none
+		sourceColumn: IsUnknown
+
+	column IsPositiveSignal
+		dataType: int64
+		lineageTag: 0f32274c-bed3-4ddc-b3d9-9973533c4e95
+		summarizeBy: none
+		sourceColumn: IsPositiveSignal
+
+	column WidgetNameNormalized
+		dataType: string
+		lineageTag: e3a68361-2f7c-467d-96d3-03ada4324952
+		sourceColumn: WidgetNameNormalized
+
+	column WidgetFormPages
+		dataType: string
+		lineageTag: 2c95fa5b-a3e6-4b45-998e-87fc1703bd58
+		sourceColumn: WidgetFormPages
+
+	column WidgetDesign
+		dataType: string
+		lineageTag: 5614dd22-e602-4289-84db-f1a7ae795c04
+		sourceColumn: WidgetDesign
+
+	column PublisherZoneName
+		dataType: string
+		lineageTag: 1bf827ac-30ff-4bc7-9263-d3b040bbcde3
+		sourceColumn: PublisherZoneName
+
+	column PublisherCampaignName
+		dataType: string
+		lineageTag: f28000a7-6785-4499-9366-0a82fb6eef33
+		sourceColumn: PublisherCampaignName
+
+	column AddressScore
+		dataType: double
+		lineageTag: 346da38c-9bef-4d24-9fce-1db82d2a9dcb
+		summarizeBy: none
+		sourceColumn: AddressScore
+
+	column AddressScoreBand
+		dataType: string
+		lineageTag: 9912cd48-868f-416e-b003-105c802f089e
+		sourceColumn: AddressScoreBand
+
+	column AddressScoreMissing
+		dataType: int64
+		lineageTag: 22c76a5c-0d90-4306-b15c-c5675628d7e0
+		summarizeBy: none
+		sourceColumn: AddressScoreMissing
+
+	column PhoneScore
+		dataType: double
+		lineageTag: 3fe19c1f-5202-429c-9ae6-1238e49b6283
+		summarizeBy: none
+		sourceColumn: PhoneScore
+
+	column PhoneScoreBand
+		dataType: string
+		lineageTag: 784f613f-4aed-42f8-83eb-2a449b2005c9
+		sourceColumn: PhoneScoreBand
+
+	column PhoneScoreMissing
+		dataType: int64
+		lineageTag: 829b1bbf-96a8-4c88-83f0-a447205b4a9e
+		summarizeBy: none
+		sourceColumn: PhoneScoreMissing
+
+	column AdvertiserCampaignName
+		dataType: string
+		lineageTag: 67109e0b-84cd-45df-8777-f6477bb7d4a0
+		sourceColumn: AdvertiserCampaignName
+
+	column State
+		dataType: string
+		lineageTag: 54d53e34-b39b-460a-b949-9dd1b2ef9980
+		sourceColumn: State
+
+	column DebtLevel
+		dataType: string
+		lineageTag: 4f4d1dcd-3d86-4a6a-bb7a-dc47d328e93b
+		sourceColumn: DebtLevel
+
+	column Partner
+		dataType: string
+		lineageTag: 8bf64e73-aa63-4b31-8c46-cc0e6435e26f
+		sourceColumn: Partner
+
+	column MarketingCampaign
+		dataType: string
+		lineageTag: 9863bc69-7b2a-4dde-93d8-2cc939a4fa0a
+		sourceColumn: MarketingCampaign
+
+	column AdGroup
+		dataType: string
+		lineageTag: 383b8023-ba6b-4d47-a5ba-60c250490d7d
+		sourceColumn: AdGroup
+
+	column Keyword
+		dataType: string
+		lineageTag: 67ab9aca-a510-4068-b67b-7372a224a8c2
+		sourceColumn: Keyword
+
+	partition FactLeads = m
+		mode: import
+		source = let Source = Csv.Document(File.Contents("C:\path\to\lead-conversion-quality-analytics\data\sanitized\clean_leads.csv"),[Delimiter=",", Columns=32, Encoding=65001, QuoteStyle=QuoteStyle.Csv]), Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]), Typed = Table.TransformColumnTypes(Promoted,{{"LeadKey", type text},{"LeadCreated", type datetime},{"LeadDate", type date},{"WeekStart", type date},{"MonthStart", type date},{"DaysSinceStart", Int64.Type},{"CallStatus", type text},{"OutcomeBucket", type text},{"IsClosed", Int64.Type},{"IsGoodProgression", Int64.Type},{"IsBadQuality", Int64.Type},{"IsUnknown", Int64.Type},{"IsPositiveSignal", Int64.Type},{"WidgetNameNormalized", type text},{"WidgetFormPages", type text},{"WidgetDesign", type text},{"PublisherZoneName", type text},{"PublisherCampaignName", type text},{"AddressScore", type number},{"AddressScoreBand", type text},{"AddressScoreMissing", Int64.Type},{"PhoneScore", type number},{"PhoneScoreBand", type text},{"PhoneScoreMissing", Int64.Type},{"AdvertiserCampaignName", type text},{"State", type text},{"DebtLevel", type text},{"Partner", type text},{"ReferralDomain", type text},{"MarketingCampaign", type text},{"AdGroup", type text},{"Keyword", type text}}), Selected = Table.RemoveColumns(Typed,{"ReferralDomain"}) in Selected

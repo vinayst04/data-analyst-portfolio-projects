@@ -1,0 +1,66 @@
+/// Documented planning scenarios; associations are not causal forecasts.
+table TargetScenarios
+	lineageTag: 8ec6ac3b-b206-4d3b-ac6c-b0353e3e05e7
+
+	column Scenario
+		dataType: string
+		lineageTag: 68a493f2-5b82-44ae-b905-201861fcacae
+		sourceColumn: Scenario
+
+	column LeadsAffected
+		dataType: int64
+		formatString: #,0
+		lineageTag: 1b97729e-36c9-4edd-b58a-b6ee42c4e55f
+		summarizeBy: none
+		sourceColumn: LeadsAffected
+
+	column AssumedDestinationRate
+		dataType: double
+		formatString: 0.00%
+		lineageTag: a8dfb380-c1d9-4079-869d-baf1405944b3
+		summarizeBy: none
+		sourceColumn: AssumedDestinationRate
+
+	column ExpectedIncrementalCloses
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 12629657-e351-45d3-b7f9-6f79b586521b
+		summarizeBy: none
+		sourceColumn: ExpectedIncrementalCloses
+
+	column ExpectedTotalCloses
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 90e45b72-c106-421d-8d53-e1ec9178aba9
+		summarizeBy: none
+		sourceColumn: ExpectedTotalCloses
+
+	column ExpectedCloseRate
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 3fc3e008-5f1c-4eab-8210-7baaaa706409
+		summarizeBy: none
+		sourceColumn: ExpectedCloseRate
+
+	column MeetsTarget
+		dataType: int64
+		formatString: 0
+		lineageTag: 9f471f07-7513-43ab-8e50-13edf3f23e56
+		summarizeBy: none
+		sourceColumn: MeetsTarget
+
+	column CommercialRevenueAtStatedOffer
+		dataType: double
+		formatString: $#,0
+		lineageTag: b7790cb7-f4c2-467b-8189-1878a2f614b1
+		summarizeBy: none
+		sourceColumn: CommercialRevenueAtStatedOffer
+
+	column Assumption
+		dataType: string
+		lineageTag: c306ec2b-f1af-49d3-a487-305c8debeae7
+		sourceColumn: Assumption
+
+	partition TargetScenarios = m
+		mode: import
+		source = let Source = Csv.Document(File.Contents("C:\path\to\lead-conversion-quality-analytics\data\exports\target_scenarios.csv"),[Delimiter=",", Columns=9, Encoding=65001, QuoteStyle=QuoteStyle.Csv]), Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]), Typed = Table.TransformColumnTypes(Promoted,{{"Scenario", type text},{"LeadsAffected", Int64.Type},{"AssumedDestinationRate", type number},{"ExpectedIncrementalCloses", type number},{"ExpectedTotalCloses", type number},{"ExpectedCloseRate", type number},{"MeetsTarget", Int64.Type},{"CommercialRevenueAtStatedOffer", type number},{"Assumption", type text}}) in Typed

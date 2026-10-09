@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Lead Conversion & Quality Analytics"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "67d13efe-fbf8-5d2a-b4e9-896972918702"
+  }
+}

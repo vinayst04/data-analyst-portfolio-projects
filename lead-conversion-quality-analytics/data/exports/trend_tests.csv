@@ -1,0 +1,4 @@
+Test,Estimate,Lower95,Upper95,PValue,Interpretation
+Logistic linear time trend,0.8986155354933423,0.8290457280858348,0.9740233298040482,0.009316961852189281,Odds ratio per 30 days; association only.
+Monthly rate heterogeneity,21.48835186577423,,,0.0006548036371084212,Chi-square across 6 months.
+First vs last month,-0.06450345694531742,,,0.0007425550361536801,Unadjusted endpoint difference; sensitive to month mix.

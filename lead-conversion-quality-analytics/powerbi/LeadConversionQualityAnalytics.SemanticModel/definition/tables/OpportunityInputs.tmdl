@@ -1,0 +1,90 @@
+/// Prioritized scenario inputs. Overlapping dimensions are explicitly non-additive.
+table OpportunityInputs
+	lineageTag: 52a99ce1-3f54-4047-a713-d7417370e425
+
+	column Dimension
+		dataType: string
+		lineageTag: 15864e3f-ce59-4328-9912-305147d192b2
+		sourceColumn: Dimension
+
+	column Segment
+		dataType: string
+		lineageTag: 70971483-a47b-4899-888d-dc15cf69f8a6
+		sourceColumn: Segment
+
+	column Leads
+		dataType: int64
+		formatString: #,0
+		lineageTag: 72c2016a-0043-4b70-ab22-f23806ef2a32
+		summarizeBy: none
+		sourceColumn: Leads
+
+	column Closed
+		dataType: int64
+		formatString: #,0
+		lineageTag: 844cfea3-9ce5-49af-8184-c1227dcad0b8
+		summarizeBy: none
+		sourceColumn: Closed
+
+	column CloseRate
+		dataType: double
+		formatString: 0.00%
+		lineageTag: e8247ec7-4ac2-4208-b827-1552c1540b6f
+		summarizeBy: none
+		sourceColumn: CloseRate
+
+	column WilsonLow
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 7dbfd385-64aa-4b96-8127-92c1b924752a
+		summarizeBy: none
+		sourceColumn: WilsonLow
+
+	column WilsonHigh
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 10df1257-e656-4c95-8651-1fd554737261
+		summarizeBy: none
+		sourceColumn: WilsonHigh
+
+	column BenchmarkSegment
+		dataType: string
+		lineageTag: f50bf7e2-daca-4335-b131-648a6dc6889c
+		sourceColumn: BenchmarkSegment
+
+	column BenchmarkObservedRate
+		dataType: double
+		formatString: 0.00%
+		lineageTag: e4fbc21d-588e-4133-9a17-715dd49cb138
+		summarizeBy: none
+		sourceColumn: BenchmarkObservedRate
+
+	column BenchmarkWilsonLow
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 40d7e64a-78f0-42a2-b5ed-f1fdffff3b3b
+		summarizeBy: none
+		sourceColumn: BenchmarkWilsonLow
+
+	column PlanningRate
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 6065900b-f1e1-4ded-b951-c19ce686451d
+		summarizeBy: none
+		sourceColumn: PlanningRate
+
+	column PotentialIncrementalCloses
+		dataType: double
+		formatString: #,0.0
+		lineageTag: fbb11b91-419a-4a70-89ca-b69b71220a19
+		summarizeBy: none
+		sourceColumn: PotentialIncrementalCloses
+
+	column ScenarioNote
+		dataType: string
+		lineageTag: 966e48b0-7406-4f92-93f9-536553ce790c
+		sourceColumn: ScenarioNote
+
+	partition OpportunityInputs = m
+		mode: import
+		source = let Source = Csv.Document(File.Contents("C:\path\to\lead-conversion-quality-analytics\data\exports\opportunity_inputs.csv"),[Delimiter=",", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.Csv]), Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]), Typed = Table.TransformColumnTypes(Promoted,{{"Dimension", type text},{"Segment", type text},{"Leads", Int64.Type},{"Closed", Int64.Type},{"CloseRate", type number},{"WilsonLow", type number},{"WilsonHigh", type number},{"BenchmarkSegment", type text},{"BenchmarkObservedRate", type number},{"BenchmarkWilsonLow", type number},{"PlanningRate", type number},{"PotentialIncrementalCloses", type number},{"ScenarioNote", type text}}) in Typed

@@ -1,0 +1,45 @@
+/// Fixed full-sample statistical test outputs from the reproducible Python analysis.
+table TrendTests
+	lineageTag: d0069fcc-f2dc-46d4-bd51-dc6d3356ad30
+
+	column Test
+		dataType: string
+		lineageTag: 8d46b824-98b8-46eb-a19c-0d7f276a0f0d
+		sourceColumn: Test
+
+	column Estimate
+		dataType: double
+		formatString: 0.000
+		lineageTag: de8741c8-3219-4a72-b705-666ad9c46c3c
+		summarizeBy: none
+		sourceColumn: Estimate
+
+	column Lower95
+		dataType: double
+		formatString: 0.000
+		lineageTag: b56d274a-806b-4e32-831a-49de9410fc34
+		summarizeBy: none
+		sourceColumn: Lower95
+
+	column Upper95
+		dataType: double
+		formatString: 0.000
+		lineageTag: cc2a52d9-3e30-47ae-9dff-4afefe51389b
+		summarizeBy: none
+		sourceColumn: Upper95
+
+	column PValue
+		dataType: double
+		formatString: 0.0000
+		lineageTag: 0681ea8d-aef6-4da4-889c-c64b7f813d86
+		summarizeBy: none
+		sourceColumn: PValue
+
+	column Interpretation
+		dataType: string
+		lineageTag: 207df387-ecbe-4928-9254-262ee202fe80
+		sourceColumn: Interpretation
+
+	partition TrendTests = m
+		mode: import
+		source = let Source = Csv.Document(File.Contents("C:\path\to\lead-conversion-quality-analytics\data\exports\trend_tests.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]), Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]), Typed = Table.TransformColumnTypes(Promoted,{{"Test", type text},{"Estimate", type number},{"Lower95", type number},{"Upper95", type number},{"PValue", type number},{"Interpretation", type text}}) in Typed

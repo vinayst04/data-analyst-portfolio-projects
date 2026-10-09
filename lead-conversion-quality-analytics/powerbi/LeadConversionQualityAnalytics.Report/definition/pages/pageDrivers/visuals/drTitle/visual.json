@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "drTitle",
+  "position": {
+    "x": 149.5716846178328,
+    "y": 0,
+    "z": 1000,
+    "height": 68.610864503593035,
+    "width": 1097.7738320574886,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Lead-Quality Drivers",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "19pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Reliable segments only (n ≥ 75). Compare rate, uncertainty, lift, and FDR-adjusted significance.",
+                    "textStyle": {
+                      "fontSize": "9.5pt",
+                      "color": "#fadde0"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

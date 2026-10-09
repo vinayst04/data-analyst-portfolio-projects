@@ -6,17 +6,17 @@ This repository contains five data analyst projects focused on Python data clean
 
 | Project | Main Focus | Tools |
 |---|---|---|
+| [Lead Conversion and Quality Analytics Dashboard](lead-conversion-quality-analytics/) | Conversion trends, statistical testing, segment quality and improvement scenarios | Python, MySQL, Excel, Power BI, Fabric |
 | Retail Sales and Profitability Dashboard | Sales, profit, discount impact, product and regional performance | Python, MySQL, SQL, Power BI |
 | Customer Churn Analytics and Retention Dashboard | Churn rate, revenue at risk, contract, tenure, service and payment analysis | Python, MySQL, SQL, Power BI |
 | E-commerce SQL Business Analysis | Multi-table SQL analysis using Olist e-commerce data | MySQL, SQL, Python |
-| Airline Customer Sentiment and Complaint Analytics Dashboard | Sentiment split, complaint reasons, airline comparison and tweet analysis | Python, MySQL, SQL, Power BI |
 | Global Economic Indicators API Dashboard | World Bank API extraction, country comparison and economic indicators | Python, Requests, Pandas, MySQL, Power BI |
 
 ## Power BI Reports
 
+- Lead Conversion and Quality Analytics Dashboard: https://app.powerbi.com/view?r=eyJrIjoiNjg4N2E0OTItZDk0Ni00ZDIxLWJmZDMtZGZmNTFiNWFhODU5IiwidCI6IjgxM2E3NTMyLWI4YmEtNDNhZi1iMWYyLWRiMWFlMGY2NzA1YiJ9&pageName=pageExecutive
 - Retail Sales Dashboard: https://app.powerbi.com/view?r=eyJrIjoiOWQyOTFkYTItOTM5Mi00N2E1LTliMjItNDA4YzUyNzg1ZWEzIiwidCI6IjgxM2E3NTMyLWI4YmEtNDNhZi1iMWYyLWRiMWFlMGY2NzA1YiJ9&pageName=55fa1cf11714d49bec3b
 - Customer Churn Dashboard: https://app.powerbi.com/view?r=eyJrIjoiMTk5Y2U2NTctMGNhNy00ODI3LTlhZDctMjhkNmNkYWMzODZhIiwidCI6IjgxM2E3NTMyLWI4YmEtNDNhZi1iMWYyLWRiMWFlMGY2NzA1YiJ9
-- Airline Sentiment Dashboard: https://app.powerbi.com/view?r=eyJrIjoiNGE5YjJmMTctMGMyZi00MTIzLWE0NmItZTQwMGE2ZjcxZWU1IiwidCI6IjgxM2E3NTMyLWI4YmEtNDNhZi1iMWYyLWRiMWFlMGY2NzA1YiJ9
 - Global Economic Indicators Dashboard: https://app.powerbi.com/view?r=eyJrIjoiNmQxOTg1NDctM2M2Ni00NGU1LWJkMjEtOWM3ZGMxZDlmNTI4IiwidCI6IjgxM2E3NTMyLWI4YmEtNDNhZi1iMWYyLWRiMWFlMGY2NzA1YiJ9
 
 ## Repository Structure

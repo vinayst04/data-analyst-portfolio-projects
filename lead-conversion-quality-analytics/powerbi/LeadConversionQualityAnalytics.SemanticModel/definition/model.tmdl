@@ -1,0 +1,13 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	valueFilterBehavior: independent
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table FactLeads
+ref table TrendTests
+ref table ReliableSegments
+ref table TargetScenarios
+ref table OpportunityInputs

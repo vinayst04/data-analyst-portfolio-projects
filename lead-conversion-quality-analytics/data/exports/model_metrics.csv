@@ -1,0 +1,14 @@
+Metric,Value,Notes
+Observations,3021.0,All sanitized leads.
+Events,245.0,Closed leads.
+Parameters,25.0,Includes intercept and encoded categories.
+Design matrix rank,25.0,Should equal parameter count.
+Events per parameter,9.8,Model complexity check.
+In-sample AUC,0.6242413103569958,"Discrimination, not causal evidence."
+In-sample Brier score,0.07348884317342191,Lower is better.
+Temporal holdout observations,592.0,After 2009-08-13.
+Temporal holdout events,31.0,Closed leads in holdout.
+Temporal holdout AUC,0.6090794088896556,Fit on first 80% by time.
+Temporal holdout Brier score,0.05100955369532342,Fit on first 80% by time.
+Successful bootstrap fits,100.0,Out of 100 resamples.
+Converged,1.0,Statsmodels GLM convergence flag.

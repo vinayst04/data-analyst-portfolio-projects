@@ -1,0 +1,310 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "drTable",
+  "position": {
+    "x": 16,
+    "y": 422,
+    "z": 5000,
+    "height": 282,
+    "width": 920,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ReliableSegments"
+                    }
+                  },
+                  "Property": "Dimension"
+                }
+              },
+              "queryRef": "ReliableSegments.Dimension",
+              "nativeQueryRef": "Dimension"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ReliableSegments"
+                    }
+                  },
+                  "Property": "Segment"
+                }
+              },
+              "queryRef": "ReliableSegments.Segment",
+              "nativeQueryRef": "Segment"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ReliableSegments"
+                    }
+                  },
+                  "Property": "Segment Leads"
+                }
+              },
+              "queryRef": "ReliableSegments.Segment Leads",
+              "nativeQueryRef": "Segment Leads"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ReliableSegments"
+                    }
+                  },
+                  "Property": "Segment Closed"
+                }
+              },
+              "queryRef": "ReliableSegments.Segment Closed",
+              "nativeQueryRef": "Segment Closed"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ReliableSegments"
+                    }
+                  },
+                  "Property": "Segment Close Rate"
+                }
+              },
+              "queryRef": "ReliableSegments.Segment Close Rate",
+              "nativeQueryRef": "Segment Close Rate"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ReliableSegments"
+                    }
+                  },
+                  "Property": "Segment Wilson Low"
+                }
+              },
+              "queryRef": "ReliableSegments.Segment Wilson Low",
+              "nativeQueryRef": "Segment Wilson Low"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ReliableSegments"
+                    }
+                  },
+                  "Property": "Segment Wilson High"
+                }
+              },
+              "queryRef": "ReliableSegments.Segment Wilson High",
+              "nativeQueryRef": "Segment Wilson High"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ReliableSegments"
+                    }
+                  },
+                  "Property": "Segment Lift"
+                }
+              },
+              "queryRef": "ReliableSegments.Segment Lift",
+              "nativeQueryRef": "Segment Lift"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ReliableSegments"
+                    }
+                  },
+                  "Property": "Segment Q Value"
+                }
+              },
+              "queryRef": "ReliableSegments.Segment Q Value",
+              "nativeQueryRef": "Segment Q Value"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#251A1C'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#251A1C'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segment detail'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'left'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#F0D7D9'"
+                    }
+                  }
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "7D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

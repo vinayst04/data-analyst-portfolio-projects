@@ -1,0 +1,129 @@
+/// Precomputed segment statistics filtered to the reliable-volume threshold.
+table ReliableSegments
+	lineageTag: 9e9a087f-df1c-4f0a-a29d-20fc937058de
+
+	measure 'Segment Leads' = MAX(ReliableSegments[Leads])
+		formatString: #,0
+		displayFolder: Segment
+		lineageTag: e233a8e0-cfdb-414f-956e-078d9557be97
+
+	measure 'Segment Closed' = MAX(ReliableSegments[Closed])
+		formatString: #,0
+		displayFolder: Segment
+		lineageTag: 9ee240a5-a1dd-4eb6-a5cb-daf2ab1ae859
+
+	measure 'Segment Close Rate' = MAX(ReliableSegments[CloseRate])
+		formatString: 0.00%
+		displayFolder: Segment
+		lineageTag: 34442fb9-9557-4d0b-b2c1-3f09d03d843b
+
+	measure 'Segment Wilson Low' = MAX(ReliableSegments[WilsonLow])
+		formatString: 0.00%
+		displayFolder: Segment
+		lineageTag: 949b12a7-4bbd-4a57-95e1-cbe87372df09
+
+	measure 'Segment Wilson High' = MAX(ReliableSegments[WilsonHigh])
+		formatString: 0.00%
+		displayFolder: Segment
+		lineageTag: 97ff77f5-619f-4bb4-ab9d-402eddd677cd
+
+	measure 'Segment Lift' = MAX(ReliableSegments[LiftVsOverall])
+		formatString: 0.00x
+		displayFolder: Segment
+		lineageTag: 87768c80-6233-4bb3-9e4f-1011df14a977
+
+	measure 'Segment Q Value' = MAX(ReliableSegments[QValueWithinDimension])
+		formatString: 0.0000
+		displayFolder: Segment
+		lineageTag: 923355f3-3d61-4370-8824-fc44a1b2d8ca
+
+	column Dimension
+		dataType: string
+		lineageTag: ebbf27d9-71c8-445a-b724-4b6e02f90d7e
+		sourceColumn: Dimension
+
+	column Segment
+		dataType: string
+		lineageTag: 29e95ad0-a26e-4396-8e37-508912aff4d0
+		sourceColumn: Segment
+
+	column Leads
+		dataType: int64
+		formatString: #,0
+		lineageTag: 2711d6d2-ae18-4d31-8c2b-557efa371a49
+		summarizeBy: none
+		sourceColumn: Leads
+
+	column Closed
+		dataType: int64
+		formatString: #,0
+		lineageTag: 16f4b720-a034-46ef-ad2d-f0038b8d466b
+		summarizeBy: none
+		sourceColumn: Closed
+
+	column CloseRate
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 6f61e427-b797-414f-b37c-172b7943e957
+		summarizeBy: none
+		sourceColumn: CloseRate
+
+	column WilsonLow
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 47553161-0bad-4737-885f-3a8caaa9a41b
+		summarizeBy: none
+		sourceColumn: WilsonLow
+
+	column WilsonHigh
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 05712116-ea43-4ee5-8243-7d9550432711
+		summarizeBy: none
+		sourceColumn: WilsonHigh
+
+	column LiftVsOverall
+		dataType: double
+		formatString: 0.00x
+		lineageTag: 8e837668-3ce9-4248-a549-c1feb3dfdc4d
+		summarizeBy: none
+		sourceColumn: LiftVsOverall
+
+	column PValueVsRest
+		dataType: double
+		formatString: 0.0000
+		lineageTag: 0e111ccd-0d70-4bad-9a42-59ce8238ba9d
+		summarizeBy: none
+		sourceColumn: PValueVsRest
+
+	column MeetsDescriptiveN
+		dataType: int64
+		formatString: 0
+		lineageTag: e87b5678-d806-482e-818e-75ccaf8dbffe
+		summarizeBy: none
+		sourceColumn: MeetsDescriptiveN
+
+	column MeetsReliableN
+		dataType: int64
+		formatString: 0
+		lineageTag: 06654631-2f1f-445a-965b-26b4f5199837
+		summarizeBy: none
+		sourceColumn: MeetsReliableN
+
+	column QValueWithinDimension
+		dataType: double
+		formatString: 0.0000
+		lineageTag: 7fbd263b-467a-4584-b5eb-ce5aca5db216
+		summarizeBy: none
+		sourceColumn: QValueWithinDimension
+
+	column StatisticallyDistinctFDR05
+		dataType: int64
+		formatString: 0
+		lineageTag: dff97417-f176-451b-8e30-90720867e116
+		summarizeBy: none
+		sourceColumn: StatisticallyDistinctFDR05
+
+	partition ReliableSegments = m
+		mode: import
+		source = let Source = Csv.Document(File.Contents("C:\path\to\lead-conversion-quality-analytics\data\exports\segment_performance.csv"),[Delimiter=",", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.Csv]), Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]), Typed = Table.TransformColumnTypes(Promoted,{{"Dimension", type text},{"Segment", type text},{"Leads", Int64.Type},{"Closed", Int64.Type},{"CloseRate", type number},{"WilsonLow", type number},{"WilsonHigh", type number},{"LiftVsOverall", type number},{"PValueVsRest", type number},{"MeetsDescriptiveN", Int64.Type},{"MeetsReliableN", Int64.Type},{"QValueWithinDimension", type number},{"StatisticallyDistinctFDR05", Int64.Type}}), Filtered = Table.SelectRows(Typed, each [MeetsReliableN] = 1) in Filtered

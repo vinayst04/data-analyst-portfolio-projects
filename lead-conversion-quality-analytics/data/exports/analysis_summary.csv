@@ -1,0 +1,14 @@
+Metric,Value,Definition
+Total leads,3021.0,All source rows; Unknown remains in denominator.
+Closed leads,245.0,Primary success outcome.
+Baseline close rate,0.08109897384971863,Closed / all leads.
+Target close rate,0.096,Assignment threshold.
+Minimum closes at target,291.0,Ceiling(total leads x target rate).
+Incremental closes needed,46.0,Minimum target closes less observed closes.
+Observed CPL revenue,90630.0,Uses $30 baseline CPL.
+Revenue at stated $33 CPL,99693.0,Uses the explicit $33 offer.
+Revenue uplift at stated $33 CPL,9063.0,"The stated $30 to $33 change is 10%, not 20%."
+Revenue at literal 20% CPL uplift,108756.0,Sensitivity using $36 CPL.
+Unknown status leads,2140.0,Includes blank CallStatus values.
+Good progression leads,148.0,"EP Sent, EP Received, EP Confirmed."
+Bad quality leads,488.0,"Unable to contact, invalid profile, does not qualify."

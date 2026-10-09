@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "trTitle",
+  "position": {
+    "x": 149.5716846178328,
+    "y": 0,
+    "z": 1000,
+    "height": 68.610864503593035,
+    "width": 1097.7738320574886,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Quality Trend and Statistical Significance",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "19pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "left"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Dynamic weekly rate and 95% Wilson bounds; endpoint weeks may be partial; tests below are fixed full-sample results",
+                    "textStyle": {
+                      "fontSize": "9.5pt",
+                      "color": "#fadde0"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "left"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

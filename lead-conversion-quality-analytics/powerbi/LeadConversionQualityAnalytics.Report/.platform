@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Lead Conversion & Quality Analytics"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e036b768-c87a-5df6-8971-a5c9b29d5428"
+  }
+}

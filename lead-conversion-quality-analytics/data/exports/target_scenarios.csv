@@ -1,0 +1,4 @@
+Scenario,LeadsAffected,AssumedDestinationRate,ExpectedIncrementalCloses,ExpectedTotalCloses,ExpectedCloseRate,MeetsTarget,CommercialRevenueAtStatedOffer,Assumption
+Portfolio conversion target,3021,0.096,46.0,291.0,0.09632571996027806,1,99693.0,Improve conversion across the portfolio; operational mechanism must be tested.
+Observed ad-group mix test,344,0.14497041420118342,46.04760026298488,291.0476002629849,0.09634147641939254,1,99693.0,Shift 344 Student Debt leads to Holding Tank - Debt at observed rates. Association may not persist after reallocation.
+Conservative ad-group mix test,513,0.11142534477651198,46.0,291.0,0.09632571996027806,1,99693.0,"Shift Student Debt (360 leads), then Credit Card Debt - high volume (153 leads) to Holding Tank - Debt using its 95% Wilson lower bound. Validate with a randomized or staged test."
